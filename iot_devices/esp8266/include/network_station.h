@@ -6,6 +6,8 @@
 *
 * This file contains the API to connect to a given access point.
 **/
+#ifndef NETWORK_STAT_H
+#define NETWORK_STAT_H
 
 #include "user_interface.h"
 
@@ -23,3 +25,5 @@ static void ICACHE_FLASH_ATTR network_check_connection(void *arg);
  * if exists, or the custom configuration.
  */
 void ICACHE_FLASH_ATTR network_connect(const char *net_ssid, const char *net_password);
+
+#endif // NETWORK_STAT_H

@@ -7,6 +7,8 @@
 * API used for debugging with ESP8266. To make sure the device
 * hasn't crashed
 **/
+#ifndef DEBUG_H
+#define DEBUG_H
 
 #include "user_interface.h"
 
@@ -20,3 +22,5 @@ static void ICACHE_FLASH_ATTR blink_cb(void *arg);
  * @brief Public API method to start the blink_cb
  */
 void ICACHE_FLASH_ATTR init_debug_blink();
+
+#endif // DEBUG_H

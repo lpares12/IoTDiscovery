@@ -8,6 +8,9 @@
 * IoTDiscovery message.
 **/
 
+#ifndef DISCOVERY_H
+#define DISCOVERY_H
+
 #include "user_interface.h"
 
 /**
@@ -46,3 +49,5 @@ static void ICACHE_FLASH_ATTR udp_recv(void *arg, char *data, unsigned short len
  * This is the entry point of this API.
  */
 void ICACHE_FLASH_ATTR setup_multicast_receiver();
+
+#endif // DISCOVERY_H

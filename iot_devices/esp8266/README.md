@@ -1,4 +1,4 @@
-** ESP8266 **
+## ESP8266
 
 Modules:
 * debug: used to blink a LED in GPIO2 to make sure ESP8266 hasn't crashed
